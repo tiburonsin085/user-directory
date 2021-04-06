@@ -1,0 +1,70 @@
+*{
+  margin:0%;
+}
+
+.uniter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#222222 ;
+  height: 100vh ;
+}
+
+.header {
+  background-color: #34a5da;
+  width: 100%;
+  height: 15vh;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.header>h1{
+  color: black ;
+  margin-left: 20px;
+  
+
+}
+
+.card{
+  position: relative;
+  background-color: white;
+  margin-top: 30px;
+  padding: 30px;
+  width: 70vw;
+  height: 50vh;
+}
+
+.id{
+  position:absolute;
+  right: 10px;
+  top:10px
+}
+
+.name{
+  margin: 15px;
+  border-bottom: 3px solid #34a5da;
+  width:fit-content;
+}
+
+.card>p{
+  margin: 15px;
+}
+
+.card>h3{
+  margin: 15px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+  margin-top: 5px;
+}
+.nav>button{
+  background-color: transparent;
+  border:transparent;
+  color: white;
+}
